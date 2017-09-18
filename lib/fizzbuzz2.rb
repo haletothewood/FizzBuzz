@@ -12,6 +12,7 @@ class Fixnum
     return "fizzbuzz" if fizz? and buzz?
     return "fizz" if fizz?
     return "buzz" if buzz?
+    self
   end
 
 end
